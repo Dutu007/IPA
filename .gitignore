@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.Python
+*.whl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# 环境变量
+.env
+.env.local
+
+# PanNuke 原始数据 (体积大，不纳入版本管理)
+pannuke_data/
+raw_dataset/
+
+# pannuke_yolo 数据集
+pannuke_yolo/
+
+# YOLOv8 训练产物
+runs/
+*.pt
+*.onnx
+
+# 日志
+*.log
+logs/
+
+# Ultralytics 缓存
+*.cache
+
+# 临时文件
+tmp/
+temp/
+*.tmp
